@@ -7,7 +7,7 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>Messageboard</title>
+    <title>XP1-Messageboard</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
   </head>
   <body>
