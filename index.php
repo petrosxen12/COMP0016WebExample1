@@ -16,6 +16,7 @@
         <h1>TESTING DEPLOYMENT This is the Message App!</h1>
         <h1>Deployment Service Works :)</h1>
       </header>
+
       <div id="messages">
         <ul>
           <?php while($row = mysqli_fetch_assoc($messages)) : ?>
@@ -27,12 +28,13 @@
           <?php endwhile; ?>
         </ul>
       </div>
+
       <div id="input">
         <?php if (isset($_GET['error'])) : ?>
           <div class="error"><?php echo $_GET['error']; ?></div>
         <?php endif; ?>
         <form method="post" action="process.php">
-          <input type="text" id="user" name="user" placeholder="Enter Your Name"/>
+          <input type="text" id="user" name="user" placeholder="Username:"/>
           <input type="text" id="messagefield" name="message" placeholder="Enter A Message"/>
           <input id="message-btn" type="submit" name="submit" value="Send Message"/>
         </form>
