@@ -34,7 +34,7 @@
           <div class="error"><?php echo $_GET['error']; ?></div>
         <?php endif; ?>
         <form method="post" action="process.php">
-          <input type="text" id="user" name="user" placeholder="Username:"/>
+          <input type="text" id="user" name="user" placeholder="Username"/>
           <input type="text" id="messagefield" name="message" placeholder="Enter A Message"/>
           <input id="message-btn" type="submit" name="submit" value="Send Message"/>
         </form>
