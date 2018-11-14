@@ -14,6 +14,7 @@
     <div id="container">
       <header>
         <h1>TESTING DEPLOYMENT This is the Message App!</h1>
+        <h1>Deployment Service Works :)</h1>
       </header>
       <div id="messages">
         <ul>
